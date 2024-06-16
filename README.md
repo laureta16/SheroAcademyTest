@@ -35,3 +35,6 @@ It serves as a showcase of my ability to create a visually appealing and functio
 - **Font Awesome**: Used for stylish icons in the header.
 - **Glide.js**: Enhances user experience with a smooth carousel for new products.
 
+- ## The link
+- https://laureta16.github.io/SheroAcademyTest/
+
