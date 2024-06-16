@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/css/glide.core.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo">PainfulPleasures</div>
+        <div class="hamburger-menu" id="hamburger-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <nav class="nav-links" id="nav-links">
+          <a href="#">Wholesale - Pros Only</a>
+          <a href="#">Retail</a>
+          <a href="#"><i class="fas fa-user"></i> Account</a>
+          <a href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
+        </nav>
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search by name, category..." />
+        <button>Search</button>
+      </div>
+      <nav class="main-nav">
+        <a href="#">BODY JEWELRY</a>
+        <a href="#">PIERCING</a>
+        <a href="#">TATTOO</a>
+        <a href="#">MEDICAL</a>
+        <a href="#">STUDIO</a>
+        <a href="#">PERMANENT MAKEUP</a>
+      </nav>
+    </header>
+    <main>
+      <section class="banner">
+        <div class="banner-item large">
+          <img src="https://via.placeholder.com/750x400" alt="Main Banner" />
+        </div>
+        <div class="banner-item small">
+          <img src="https://via.placeholder.com/375x200" alt="Small Banner 1" />
+          <img src="https://via.placeholder.com/375x200" alt="Small Banner 2" />
+        </div>
+      </section>
+      <section class="categories">
+        <div class="category-item">
+          <img src="https://via.placeholder.com/100" alt="Tattoo Supplies" />
+          <h3>TATTOO SUPPLIES</h3>
+          <button>Shop now</button>
+        </div>
+        <div class="category-item">
+          <img src="https://via.placeholder.com/100" alt="Body Jewelry" />
+          <h3>BODY JEWELRY</h3>
+          <button>Shop now</button>
+        </div>
+        <div class="category-item">
+          <img src="https://via.placeholder.com/100" alt="Piercing Supplies" />
+          <h3>PIERCING SUPPLIES</h3>
+          <button>Shop now</button>
+        </div>
+        <div class="category-item">
+          <img src="https://via.placeholder.com/100" alt="Medical Supplies" />
+          <h3>MEDICAL SUPPLIES</h3>
+          <button>Shop now</button>
+        </div>
+      </section>
+      <section class="new-products">
+        <h2>NEW PRODUCTS</h2>
+        <div class="glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <img src="https://via.placeholder.com/150" alt="Product 1" />
+                <div class="price">$449.99</div>
+                <div class="product-name">
+                  Rook Quill Rotary Tattoo Machine — Copper
+                </div>
+              </li>
+              <li class="glide__slide">
+                <img src="https://via.placeholder.com/150" alt="Product 2" />
+                <div class="price">$449.99</div>
+                <div class="product-name">
+                  Rook Quill Rotary Tattoo Machine — Blue
+                </div>
+              </li>
+              <li class="glide__slide">
+                <img src="https://via.placeholder.com/150" alt="Product 3" />
+                <div class="price">$1,199.99</div>
+                <div class="product-name">
+                  Pre-Order — Inkjecta Flite X1 Wireless Tattoo Machine
+                </div>
+              </li>
+              <li class="glide__slide">
+                <img src="https://via.placeholder.com/150" alt="Product 4" />
+                <div class="price">$1,199.99</div>
+                <div class="product-name">
+                  Pre-Order — Inkjecta Flite X1 Wireless Tattoo Machine
+                </div>
+              </li>
+              <li class="glide__slide">
+                <img src="https://via.placeholder.com/150" alt="Product 5" />
+                <div class="price">$1,199.99</div>
+                <div class="product-name">
+                  Pre-Order — Inkjecta Flite X1 Wireless Tattoo Machine
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+              ‹
+            </button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+              ›
+            </button>
+          </div>
+          <div class="glide__bullets" data-glide-el="controls[nav]">
+            <button class="glide__bullet" data-glide-dir="=0"></button>
+            <button class="glide__bullet" data-glide-dir="=1"></button>
+            <button class="glide__bullet" data-glide-dir="=2"></button>
+            <button class="glide__bullet" data-glide-dir="=3"></button>
+            <button class="glide__bullet" data-glide-dir="=4"></button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h4>About Us</h4>
+          <p>Information about the company.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Customer Service</h4>
+          <p>Contact details and support.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Follow Us</h4>
+          <p>Links to social media.</p>
+        </div>
+      </div>
+      <p>&copy; 2024 PainfulPleasures. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/glide.min.js"></script>
+    <script>
+      new Glide(".glide", {
+        type: "carousel",
+        perView: 5,
+        breakpoints: {
+          1200: { perView: 3 },
+          800: { perView: 2 },
+          600: { perView: 1 },
+        },
+      }).mount();
+
+      document
+        .getElementById("hamburger-menu")
+        .addEventListener("click", function () {
+          const navLinks = document.getElementById("nav-links");
+          navLinks.classList.toggle("active");
+        });
+    </script>
+  </body>
+</html>
