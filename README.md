@@ -23,7 +23,7 @@ It serves as a showcase of my ability to create a visually appealing and functio
 1. Clone this repository to your device.
 2. Open `index.html` in your favorite web browser.
 3. Explore the responsive design and interactive features.
-
+   
 ## Technologies Used
 
 - **HTML**: Semantic markup for structure.
@@ -35,6 +35,6 @@ It serves as a showcase of my ability to create a visually appealing and functio
 - **Font Awesome**: Used for stylish icons in the header.
 - **Glide.js**: Enhances user experience with a smooth carousel for new products.
 
-- ## The link
+  ## The link
 - https://laureta16.github.io/SheroAcademyTest/
 
